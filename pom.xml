@@ -57,13 +57,13 @@
 		 <snapshotRepository>
 		    <id>nexus</id>
 		    <!-- <url>http://34.217.174.36:8081/nexus/content/repositories/snapshots/</url> -->
-                    <url>http://34.214.59.90:8081/repository/snapshot/</url>
+                    <url>http://34.214.59.90:8081/repository/maven-snapshots/</url>
 
 		 </snapshotRepository>
 		
 		 <repository>
-		    <!-- <id>nexus</id> -->
-		    <!-- <url>http://34.214.59.90:8081/repository/release/</url>-->
+		     <id>nexus</id>
+		     <url>http://34.214.59.90:8081/repository/maven-releases/</url>
 		</repository> 
   	</distributionManagement>
 	
